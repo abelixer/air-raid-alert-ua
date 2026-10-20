@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "ara/air-raid-alert",
+	"version": "1.0.0",
+	"title": "Air Raid Alert",
+	"category": "widgets",
+	"icon": "warning",
+	"description": "Embed the live air-raid alert widget from alerts.na-agency.com.",
+	"keywords": [ "alert", "air raid", "ukraine", "тривога" ],
+	"textdomain": "air-raid-alert-ua",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"region": {
+			"type": "number"
+		},
+		"type": {
+			"type": "string"
+		},
+		"size": {
+			"type": "string"
+		},
+		"theme": {
+			"type": "string"
+		},
+		"fallbackImage": {
+			"type": "boolean"
+		},
+		"attribution": {
+			"type": "boolean"
+		}
+	},
+	"editorScript": "ara-block",
+	"style": "ara-public",
+	"editorStyle": "ara-public"
+}

@@ -1,0 +1,50 @@
+.ara-settings .ara-region-select {
+	width: 100%;
+	max-width: 560px;
+}
+
+.ara-settings .ara-colors-panel {
+	margin-top: 10px;
+	padding: 10px 12px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #f6f7f7;
+}
+
+.ara-settings .ara-colors-panel.is-disabled {
+	opacity: .55;
+}
+
+.ara-settings .ara-color-input {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+	margin-right: 14px;
+	font-family: Menlo, Consolas, monospace;
+	color: #646970;
+}
+
+.ara-settings .ara-color-input input {
+	width: 7.5em;
+	font-family: Menlo, Consolas, monospace;
+	text-transform: lowercase;
+}
+
+.ara-settings .ara-code {
+	max-width: 760px;
+	padding: 8px 12px;
+	overflow: auto;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #f6f7f7;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.ara-settings .form-table th {
+	width: 220px;
+}
+
+.ara-settings .notice.inline {
+	margin: 12px 0;
+}
