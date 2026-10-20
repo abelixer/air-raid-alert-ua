@@ -1,0 +1,360 @@
+{
+  "domain": "air-raid-alert-ua",
+  "locale_data": {
+    "air-raid-alert-ua": {
+      "": {
+        "domain": "air-raid-alert-ua",
+        "lang": "en_US",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Accent": [
+        "Accent"
+      ],
+      "Add the “Air Raid Alert” block from the Widgets category. Its inspector exposes the same options.": [
+        "Add the “Air Raid Alert” block from the Widgets category. Its inspector exposes the same options."
+      ],
+      "Added inline after the plugin stylesheet. Use .ara-widget to scope rules. Scripts, @import, and closing style tags are removed.": [
+        "Added inline after the plugin stylesheet. Use .ara-widget to scope rules. Scripts, @import, and closing style tags are removed."
+      ],
+      "Air Raid Alert": [
+        "Air Raid Alert"
+      ],
+      "Air Raid Alert UA": [
+        "Air Raid Alert UA"
+      ],
+      "Air Raid Alert UA — Network defaults": [
+        "Air Raid Alert UA — Network defaults"
+      ],
+      "Alert": [
+        "Alert"
+      ],
+      "Appearance": [
+        "Appearance"
+      ],
+      "Appearance → Widgets → Air Raid Alert. Leave a field on “Use plugin setting” to inherit the value from this page.": [
+        "Appearance → Widgets → Air Raid Alert. Leave a field on “Use plugin setting” to inherit the value from this page."
+      ],
+      "Attribution": [
+        "Attribution"
+      ],
+      "Auto (system)": [
+        "Auto (system)"
+      ],
+      "Background": [
+        "Background"
+      ],
+      "CSP note": [
+        "CSP note"
+      ],
+      "Cache lifetime": [
+        "Cache lifetime"
+      ],
+      "Card": [
+        "Card"
+      ],
+      "Choose an oblast, raion, or hromada. The whole-Ukraine type does not use a region.": [
+        "Choose an oblast, raion, or hromada. The whole-Ukraine type does not use a region."
+      ],
+      "Classic widget": [
+        "Classic widget"
+      ],
+      "Colors": [
+        "Colors"
+      ],
+      "Could not reach the region source and no cached region list is available.": [
+        "Could not reach the region source and no cached region list is available."
+      ],
+      "Could not reach the region source. Kept %d cached entries.": [
+        "Could not reach the region source. Kept %d cached entries."
+      ],
+      "Could not reach the region source. Using the bundled snapshot of %d entries.": [
+        "Could not reach the region source. Using the bundled snapshot of %d entries."
+      ],
+      "Custom CSS": [
+        "Custom CSS"
+      ],
+      "Dark": [
+        "Dark"
+      ],
+      "Data": [
+        "Data"
+      ],
+      "Default embed": [
+        "Default embed"
+      ],
+      "Delete settings and cached regions when the plugin is uninstalled.": [
+        "Delete settings and cached regions when the plugin is uninstalled."
+      ],
+      "Embed the live air-raid alert widget from alerts.na-agency.com.": [
+        "Embed the live air-raid alert widget from alerts.na-agency.com."
+      ],
+      "Embed the live air-raid alert widget.": [
+        "Embed the live air-raid alert widget."
+      ],
+      "Embedding the iframe or image requests content from alerts.na-agency.com, which receives the visitor IP address, user agent, and referring origin as part of that request. The source site states that it does not use cookies or analytics.": [
+        "Embedding the iframe or image requests content from alerts.na-agency.com, which receives the visitor IP address, user agent, and referring origin as part of that request. The source site states that it does not use cookies or analytics."
+      ],
+      "Enable the widget, shortcode, block, and classic widget.": [
+        "Enable the widget, shortcode, block, and classic widget."
+      ],
+      "Enter six-digit hex values without the # sign.": [
+        "Enter six-digit hex values without the # sign."
+      ],
+      "Fallback and attribution": [
+        "Fallback and attribution"
+      ],
+      "Gutenberg": [
+        "Gutenberg"
+      ],
+      "How to embed": [
+        "How to embed"
+      ],
+      "Image fallback": [
+        "Image fallback"
+      ],
+      "Inherit network settings for this site.": [
+        "Inherit network settings for this site."
+      ],
+      "Large / 100%": [
+        "Large / 100%"
+      ],
+      "Large / 100% width": [
+        "Large / 100% width"
+      ],
+      "Last refresh: %1$s — %2$d regions cached.": [
+        "Last refresh: %1$s — %2$d regions cached."
+      ],
+      "Light": [
+        "Light"
+      ],
+      "Line": [
+        "Line"
+      ],
+      "Map": [
+        "Map"
+      ],
+      "Medium": [
+        "Medium"
+      ],
+      "Network defaults": [
+        "Network defaults"
+      ],
+      "Network defaults saved.": [
+        "Network defaults saved."
+      ],
+      "No remote refresh has been stored yet. The bundled snapshot is used if the source is unreachable.": [
+        "No remote refresh has been stored yet. The bundled snapshot is used if the source is unreachable."
+      ],
+      "No results found.": [
+        "No results found."
+      ],
+      "On multisite, each site controls its own settings. The network page controls shared network defaults; region caches are refreshed per site.": [
+        "On multisite, each site controls its own settings. The network page controls shared network defaults; region caches are refreshed per site."
+      ],
+      "Open standalone demo": [
+        "Open standalone demo"
+      ],
+      "Please enter 1 or more characters.": [
+        "Please enter 1 or more characters."
+      ],
+      "Preview current widget": [
+        "Preview current widget"
+      ],
+      "Privacy note": [
+        "Privacy note"
+      ],
+      "Refresh region list now": [
+        "Refresh region list now"
+      ],
+      "Region": [
+        "Region"
+      ],
+      "Region cache": [
+        "Region cache"
+      ],
+      "Region list refreshed: %d entries.": [
+        "Region list refreshed: %d entries."
+      ],
+      "Region source returned HTTP %d.": [
+        "Region source returned HTTP %d."
+      ],
+      "Region:": [
+        "Region:"
+      ],
+      "Save settings": [
+        "Save settings"
+      ],
+      "Searching…": [
+        "Searching…"
+      ],
+      "Settings": [
+        "Settings"
+      ],
+      "Settings saved.": [
+        "Settings saved."
+      ],
+      "Shortcode": [
+        "Shortcode"
+      ],
+      "Show source attribution": [
+        "Show source attribution"
+      ],
+      "Show the link to alerts.na-agency.com below the widget.": [
+        "Show the link to alerts.na-agency.com below the widget."
+      ],
+      "Size": [
+        "Size"
+      ],
+      "Size:": [
+        "Size:"
+      ],
+      "Small": [
+        "Small"
+      ],
+      "Source status": [
+        "Source status"
+      ],
+      "Stats": [
+        "Stats"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Text": [
+        "Text"
+      ],
+      "The Air Raid Alert widget is disabled in the plugin settings.": [
+        "The Air Raid Alert widget is disabled in the plugin settings."
+      ],
+      "The iframe requires frame-src https://alerts.na-agency.com; the image fallback requires img-src https://alerts.na-agency.com. If frames are blocked, enable the image fallback or adjust the Content-Security-Policy.": [
+        "The iframe requires frame-src https://alerts.na-agency.com; the image fallback requires img-src https://alerts.na-agency.com. If frames are blocked, enable the image fallback or adjust the Content-Security-Policy."
+      ],
+      "The plugin settings are the defaults. Each shortcode, block, or classic widget can override region, type, size, theme, fallback, and attribution.": [
+        "The plugin settings are the defaults. Each shortcode, block, or classic widget can override region, type, size, theme, fallback, and attribution."
+      ],
+      "The refresh runs once, immediately, using the same parser as the daily job.": [
+        "The refresh runs once, immediately, using the same parser as the daily job."
+      ],
+      "The region list is scraped server-side and cached. A daily WP-Cron job refreshes it in the background.": [
+        "The region list is scraped server-side and cached. A daily WP-Cron job refreshes it in the background."
+      ],
+      "The region page could not be parsed.": [
+        "The region page could not be parsed."
+      ],
+      "The site switch works even while inheriting network defaults.": [
+        "The site switch works even while inheriting network defaults."
+      ],
+      "The source site asks embedders to keep this link.": [
+        "The source site asks embedders to keep this link."
+      ],
+      "The widget type also controls the recommended dimensions.": [
+        "The widget type also controls the recommended dimensions."
+      ],
+      "Theme": [
+        "Theme"
+      ],
+      "Theme template": [
+        "Theme template"
+      ],
+      "Theme:": [
+        "Theme:"
+      ],
+      "These defaults apply to every site in the network that has “Inherit network settings” enabled. Each site can still use its own widget switch.": [
+        "These defaults apply to every site in the network that has “Inherit network settings” enabled. Each site can still use its own widget switch."
+      ],
+      "This site can inherit the network defaults or override them below.": [
+        "This site can inherit the network defaults or override them below."
+      ],
+      "Title:": [
+        "Title:"
+      ],
+      "Type": [
+        "Type"
+      ],
+      "Type:": [
+        "Type:"
+      ],
+      "Uncheck to give this site its own region and appearance settings. The stored values below become active when inheritance is disabled.": [
+        "Uncheck to give this site its own region and appearance settings. The stored values below become active when inheritance is disabled."
+      ],
+      "Uninstall": [
+        "Uninstall"
+      ],
+      "Use custom colors": [
+        "Use custom colors"
+      ],
+      "Use image fallback (CSP-safe)": [
+        "Use image fallback (CSP-safe)"
+      ],
+      "Use plugin setting": [
+        "Use plugin setting"
+      ],
+      "Use the /widget-image SVG fallback instead of an iframe.": [
+        "Use the /widget-image SVG fallback instead of an iframe."
+      ],
+      "Useful when the site Content-Security-Policy blocks frames. Shortcode and block instances can still choose the other mode.": [
+        "Useful when the site Content-Security-Policy blocks frames. Shortcode and block instances can still choose the other mode."
+      ],
+      "Warning": [
+        "Warning"
+      ],
+      "When disabled, the shortcode, block, and classic widget render nothing on the front end.": [
+        "When disabled, the shortcode, block, and classic widget render nothing on the front end."
+      ],
+      "Whole Ukraine": [
+        "Whole Ukraine"
+      ],
+      "Whole-Ukraine view does not use a region.": [
+        "Whole-Ukraine view does not use a region."
+      ],
+      "Widget preview is unavailable.": [
+        "Widget preview is unavailable."
+      ],
+      "Widget settings": [
+        "Widget settings"
+      ],
+      "Widget switch": [
+        "Widget switch"
+      ],
+      "You do not have permission to access this page.": [
+        "You do not have permission to access this page."
+      ],
+      "You do not have permission to refresh the region list.": [
+        "You do not have permission to refresh the region list."
+      ],
+      "You do not have permission to save these settings.": [
+        "You do not have permission to save these settings."
+      ],
+      "air raid": [
+        "air raid"
+      ],
+      "alert": [
+        "alert"
+      ],
+      "hours": [
+        "hours"
+      ],
+      "ukraine": [
+        "ukraine"
+      ],
+      "Повітряна тривога": [
+        "Air raid alert"
+      ],
+      "Повітряна тривога — %s": [
+        "Air raid alert — %s"
+      ],
+      "Україна": [
+        "Ukraine"
+      ],
+      "тривога": [
+        "air raid"
+      ],
+      "— Select a region —": [
+        "— Select a region —"
+      ],
+      "— Use plugin default —": [
+        "— Use plugin default —"
+      ]
+    }
+  }
+}

@@ -15,6 +15,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 class ARA_Assets {
 
 	/**
+	 * Bundled Select2 version.
+	 */
+	const SELECT2_VERSION = '4.1.0-rc.0';
+
+	/**
 	 * Register hooks.
 	 *
 	 * @return void
@@ -23,6 +28,7 @@ class ARA_Assets {
 		add_action( 'init', array( __CLASS__, 'register_assets' ), 5 );
 		add_action( 'wp_enqueue_scripts', array( __CLASS__, 'enqueue_front' ), 20 );
 		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'enqueue_admin' ) );
+		add_action( 'customize_controls_enqueue_scripts', array( __CLASS__, 'enqueue_customizer' ) );
 	}
 
 	/**
@@ -47,16 +53,31 @@ class ARA_Assets {
 		);
 
 		wp_register_style(
+			'ara-select2',
+			ARA_URL . 'admin/assets/vendor/select2/select2.min.css',
+			array(),
+			self::SELECT2_VERSION
+		);
+
+		wp_register_script(
+			'ara-select2',
+			ARA_URL . 'admin/assets/vendor/select2/select2.min.js',
+			array( 'jquery' ),
+			self::SELECT2_VERSION,
+			true
+		);
+
+		wp_register_style(
 			'ara-admin',
 			ARA_URL . 'admin/assets/admin.css',
-			array(),
+			array( 'ara-select2' ),
 			ARA_VERSION
 		);
 
 		wp_register_script(
 			'ara-admin',
 			ARA_URL . 'admin/assets/admin.js',
-			array(),
+			array( 'jquery', 'ara-select2' ),
 			ARA_VERSION,
 			true
 		);
@@ -82,17 +103,47 @@ class ARA_Assets {
 	}
 
 	/**
-	 * Admin assets only on plugin screens.
+	 * Admin assets on plugin screens and widget screens.
 	 *
 	 * @param string $hook_suffix Current admin page.
 	 * @return void
 	 */
 	public static function enqueue_admin( $hook_suffix ) {
-		if ( false === strpos( (string) $hook_suffix, 'air-raid-alert-ua' ) ) {
+		$hook_suffix = (string) $hook_suffix;
+
+		if ( false === strpos( $hook_suffix, 'air-raid-alert-ua' ) && 'widgets.php' !== $hook_suffix ) {
 			return;
 		}
 
+		self::enqueue_admin_assets();
+	}
+
+	/**
+	 * Admin assets in the Customizer, where the classic widget form is rendered.
+	 *
+	 * @return void
+	 */
+	public static function enqueue_customizer() {
+		self::enqueue_admin_assets();
+	}
+
+	/**
+	 * Enqueue the shared admin assets.
+	 *
+	 * @return void
+	 */
+	private static function enqueue_admin_assets() {
 		wp_enqueue_style( 'ara-admin' );
 		wp_enqueue_script( 'ara-admin' );
+
+		wp_localize_script(
+			'ara-admin',
+			'araAdminData',
+			array(
+				'noResults'     => __( 'No results found.', 'air-raid-alert-ua' ),
+				'searching'     => __( 'Searching…', 'air-raid-alert-ua' ),
+				'inputTooShort' => __( 'Please enter 1 or more characters.', 'air-raid-alert-ua' ),
+			)
+		);
 	}
 }

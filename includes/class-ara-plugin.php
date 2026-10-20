@@ -60,6 +60,22 @@ final class ARA_Plugin {
 	 * @return void
 	 */
 	public static function load_textdomain() {
+		$locale     = determine_locale();
+		$candidates = array( $locale );
+
+		if ( 'uk_UA' === $locale ) {
+			$candidates[] = 'uk';
+		}
+
+		foreach ( $candidates as $candidate ) {
+			$mofile = ARA_DIR . 'languages/air-raid-alert-ua-' . $candidate . '.mo';
+
+			if ( is_readable( $mofile ) ) {
+				load_textdomain( 'air-raid-alert-ua', $mofile, $locale );
+				break;
+			}
+		}
+
 		load_plugin_textdomain(
 			'air-raid-alert-ua',
 			false,

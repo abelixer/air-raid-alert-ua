@@ -3,7 +3,7 @@
  * Plugin Name:       Air Raid Alert UA
  * Plugin URI:        https://github.com/abelixer/air-raid-alert-ua
  * Description:       Embed air-raid alert widgets from alerts.na-agency.com using a shortcode, Gutenberg block, or classic widget.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Abelixer
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ARA_VERSION', '1.0.0' );
+define( 'ARA_VERSION', '1.1.0' );
 define( 'ARA_FILE', __FILE__ );
 define( 'ARA_DIR', plugin_dir_path( __FILE__ ) );
 define( 'ARA_URL', plugin_dir_url( __FILE__ ) );

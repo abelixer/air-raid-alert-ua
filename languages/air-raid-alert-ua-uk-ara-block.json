@@ -1,0 +1,360 @@
+{
+  "domain": "air-raid-alert-ua",
+  "locale_data": {
+    "air-raid-alert-ua": {
+      "": {
+        "domain": "air-raid-alert-ua",
+        "lang": "uk",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+      },
+      "Accent": [
+        "Акцент"
+      ],
+      "Add the “Air Raid Alert” block from the Widgets category. Its inspector exposes the same options.": [
+        "Додайте блок «Air Raid Alert» з категорії «Віджети». Його інспектор містить ті самі параметри."
+      ],
+      "Added inline after the plugin stylesheet. Use .ara-widget to scope rules. Scripts, @import, and closing style tags are removed.": [
+        "Додається вбудовано після таблиці стилів плагіна. Використовуйте .ara-widget для обмеження правил. Скрипти, @import і закриваючі теги style видаляються."
+      ],
+      "Air Raid Alert": [
+        "Повітряна тривога"
+      ],
+      "Air Raid Alert UA": [
+        "Air Raid Alert UA"
+      ],
+      "Air Raid Alert UA — Network defaults": [
+        "Air Raid Alert UA — мережеві налаштування"
+      ],
+      "Alert": [
+        "Тривога"
+      ],
+      "Appearance": [
+        "Вигляд"
+      ],
+      "Appearance → Widgets → Air Raid Alert. Leave a field on “Use plugin setting” to inherit the value from this page.": [
+        "Вигляд → Віджети → Air Raid Alert. Залиште поле зі значенням «Використовувати налаштування плагіна», щоб успадкувати значення з цієї сторінки."
+      ],
+      "Attribution": [
+        "Джерело"
+      ],
+      "Auto (system)": [
+        "Автоматично (система)"
+      ],
+      "Background": [
+        "Фон"
+      ],
+      "CSP note": [
+        "Примітка CSP"
+      ],
+      "Cache lifetime": [
+        "Термін зберігання кешу"
+      ],
+      "Card": [
+        "Картка"
+      ],
+      "Choose an oblast, raion, or hromada. The whole-Ukraine type does not use a region.": [
+        "Виберіть область, район або громаду. Для типу «Вся Україна» регіон не використовується."
+      ],
+      "Classic widget": [
+        "Класичний віджет"
+      ],
+      "Colors": [
+        "Кольори"
+      ],
+      "Could not reach the region source and no cached region list is available.": [
+        "Не вдалося зв’язатися з джерелом регіонів, і кешований список недоступний."
+      ],
+      "Could not reach the region source. Kept %d cached entries.": [
+        "Не вдалося зв’язатися з джерелом регіонів. Збережено %d кешованих записів."
+      ],
+      "Could not reach the region source. Using the bundled snapshot of %d entries.": [
+        "Не вдалося зв’язатися з джерелом регіонів. Використовується вбудований знімок із %d записів."
+      ],
+      "Custom CSS": [
+        "Власний CSS"
+      ],
+      "Dark": [
+        "Темна"
+      ],
+      "Data": [
+        "Дані"
+      ],
+      "Default embed": [
+        "Типове вбудовування"
+      ],
+      "Delete settings and cached regions when the plugin is uninstalled.": [
+        "Видаляти налаштування та кешовані регіони під час видалення плагіна."
+      ],
+      "Embed the live air-raid alert widget from alerts.na-agency.com.": [
+        "Вбудувати віджет повітряної тривоги з alerts.na-agency.com."
+      ],
+      "Embed the live air-raid alert widget.": [
+        "Вбудувати віджет повітряної тривоги в реальному часі."
+      ],
+      "Embedding the iframe or image requests content from alerts.na-agency.com, which receives the visitor IP address, user agent, and referring origin as part of that request. The source site states that it does not use cookies or analytics.": [
+        "Вбудовування iframe або зображення запитує вміст із alerts.na-agency.com, який отримує IP-адресу відвідувача, user agent і походження запиту. Сайт-джерело зазначає, що не використовує файли cookie чи аналітику."
+      ],
+      "Enable the widget, shortcode, block, and classic widget.": [
+        "Увімкнути віджет, шорткод, блок і класичний віджет."
+      ],
+      "Enter six-digit hex values without the # sign.": [
+        "Введіть шестизначні значення HEX без знака #."
+      ],
+      "Fallback and attribution": [
+        "Резервний варіант і джерело"
+      ],
+      "Gutenberg": [
+        "Gutenberg"
+      ],
+      "How to embed": [
+        "Як вбудувати"
+      ],
+      "Image fallback": [
+        "Резервне зображення"
+      ],
+      "Inherit network settings for this site.": [
+        "Успадковувати мережеві налаштування для цього сайту."
+      ],
+      "Large / 100%": [
+        "Великий / 100%"
+      ],
+      "Large / 100% width": [
+        "Великий / ширина 100%"
+      ],
+      "Last refresh: %1$s — %2$d regions cached.": [
+        "Останнє оновлення: %1$s — у кеші %2$d регіонів."
+      ],
+      "Light": [
+        "Світла"
+      ],
+      "Line": [
+        "Рядок"
+      ],
+      "Map": [
+        "Карта"
+      ],
+      "Medium": [
+        "Середній"
+      ],
+      "Network defaults": [
+        "Мережеві налаштування"
+      ],
+      "Network defaults saved.": [
+        "Мережеві налаштування збережено."
+      ],
+      "No remote refresh has been stored yet. The bundled snapshot is used if the source is unreachable.": [
+        "Віддалене оновлення ще не збережено. Якщо джерело недоступне, використовується вбудований знімок."
+      ],
+      "No results found.": [
+        "Нічого не знайдено."
+      ],
+      "On multisite, each site controls its own settings. The network page controls shared network defaults; region caches are refreshed per site.": [
+        "У багатосайтовому режимі кожен сайт керує власними налаштуваннями. Мережева сторінка керує спільними мережевими налаштуваннями; кеш регіонів оновлюється для кожного сайту окремо."
+      ],
+      "Open standalone demo": [
+        "Відкрити окреме демо"
+      ],
+      "Please enter 1 or more characters.": [
+        "Введіть 1 або більше символів."
+      ],
+      "Preview current widget": [
+        "Переглянути поточний віджет"
+      ],
+      "Privacy note": [
+        "Примітка про конфіденційність"
+      ],
+      "Refresh region list now": [
+        "Оновити список регіонів зараз"
+      ],
+      "Region": [
+        "Регіон"
+      ],
+      "Region cache": [
+        "Кеш регіонів"
+      ],
+      "Region list refreshed: %d entries.": [
+        "Список регіонів оновлено: %d записів."
+      ],
+      "Region source returned HTTP %d.": [
+        "Джерело регіонів повернуло HTTP %d."
+      ],
+      "Region:": [
+        "Регіон:"
+      ],
+      "Save settings": [
+        "Зберегти налаштування"
+      ],
+      "Searching…": [
+        "Пошук…"
+      ],
+      "Settings": [
+        "Налаштування"
+      ],
+      "Settings saved.": [
+        "Налаштування збережено."
+      ],
+      "Shortcode": [
+        "Шорткод"
+      ],
+      "Show source attribution": [
+        "Показувати джерело"
+      ],
+      "Show the link to alerts.na-agency.com below the widget.": [
+        "Показувати посилання на alerts.na-agency.com під віджетом."
+      ],
+      "Size": [
+        "Розмір"
+      ],
+      "Size:": [
+        "Розмір:"
+      ],
+      "Small": [
+        "Малий"
+      ],
+      "Source status": [
+        "Стан джерела"
+      ],
+      "Stats": [
+        "Статистика"
+      ],
+      "Status": [
+        "Стан"
+      ],
+      "Text": [
+        "Текст"
+      ],
+      "The Air Raid Alert widget is disabled in the plugin settings.": [
+        "Віджет Air Raid Alert вимкнено в налаштуваннях плагіна."
+      ],
+      "The iframe requires frame-src https://alerts.na-agency.com; the image fallback requires img-src https://alerts.na-agency.com. If frames are blocked, enable the image fallback or adjust the Content-Security-Policy.": [
+        "Для iframe потрібен frame-src https://alerts.na-agency.com; для резервного зображення — img-src https://alerts.na-agency.com. Якщо фрейми заблоковано, увімкніть резервне зображення або змініть Content-Security-Policy."
+      ],
+      "The plugin settings are the defaults. Each shortcode, block, or classic widget can override region, type, size, theme, fallback, and attribution.": [
+        "Налаштування плагіна є типовими. Кожен шорткод, блок або класичний віджет може перевизначати регіон, тип, розмір, тему, резервний варіант і джерело."
+      ],
+      "The refresh runs once, immediately, using the same parser as the daily job.": [
+        "Оновлення виконується один раз негайно з тим самим парсером, що й щоденне завдання."
+      ],
+      "The region list is scraped server-side and cached. A daily WP-Cron job refreshes it in the background.": [
+        "Список регіонів отримується на сервері та кешується. Щоденне завдання WP-Cron оновлює його у фоновому режимі."
+      ],
+      "The region page could not be parsed.": [
+        "Не вдалося обробити сторінку регіонів."
+      ],
+      "The site switch works even while inheriting network defaults.": [
+        "Перемикач сайту працює навіть при успадкуванні мережевих налаштувань."
+      ],
+      "The source site asks embedders to keep this link.": [
+        "Сайт-джерело просить зберігати це посилання."
+      ],
+      "The widget type also controls the recommended dimensions.": [
+        "Тип віджета також визначає рекомендовані розміри."
+      ],
+      "Theme": [
+        "Тема"
+      ],
+      "Theme template": [
+        "Шаблон теми"
+      ],
+      "Theme:": [
+        "Тема:"
+      ],
+      "These defaults apply to every site in the network that has “Inherit network settings” enabled. Each site can still use its own widget switch.": [
+        "Ці типові налаштування застосовуються до кожного сайту мережі, де ввімкнено «Успадковувати мережеві налаштування». Кожен сайт усе одно може використовувати власний перемикач віджета."
+      ],
+      "This site can inherit the network defaults or override them below.": [
+        "Цей сайт може успадковувати мережеві налаштування або перевизначити їх нижче."
+      ],
+      "Title:": [
+        "Заголовок:"
+      ],
+      "Type": [
+        "Тип"
+      ],
+      "Type:": [
+        "Тип:"
+      ],
+      "Uncheck to give this site its own region and appearance settings. The stored values below become active when inheritance is disabled.": [
+        "Зніміть прапорець, щоб задати для цього сайту власний регіон і налаштування вигляду. Збережені нижче значення почнуть діяти після вимкнення успадкування."
+      ],
+      "Uninstall": [
+        "Видалення"
+      ],
+      "Use custom colors": [
+        "Використовувати власні кольори"
+      ],
+      "Use image fallback (CSP-safe)": [
+        "Використовувати резервне зображення (безпечно для CSP)"
+      ],
+      "Use plugin setting": [
+        "Використовувати налаштування плагіна"
+      ],
+      "Use the /widget-image SVG fallback instead of an iframe.": [
+        "Використовувати резервне SVG-зображення /widget-image замість iframe."
+      ],
+      "Useful when the site Content-Security-Policy blocks frames. Shortcode and block instances can still choose the other mode.": [
+        "Корисно, коли Content-Security-Policy сайту блокує фрейми. Шорткод і блок можуть вибрати інший режим."
+      ],
+      "Warning": [
+        "Попередження"
+      ],
+      "When disabled, the shortcode, block, and classic widget render nothing on the front end.": [
+        "Коли вимкнено, шорткод, блок і класичний віджет нічого не виводять на сайті."
+      ],
+      "Whole Ukraine": [
+        "Вся Україна"
+      ],
+      "Whole-Ukraine view does not use a region.": [
+        "Для типу «Вся Україна» регіон не використовується."
+      ],
+      "Widget preview is unavailable.": [
+        "Попередній перегляд віджета недоступний."
+      ],
+      "Widget settings": [
+        "Налаштування віджета"
+      ],
+      "Widget switch": [
+        "Перемикач віджета"
+      ],
+      "You do not have permission to access this page.": [
+        "У вас немає дозволу на доступ до цієї сторінки."
+      ],
+      "You do not have permission to refresh the region list.": [
+        "У вас немає дозволу на оновлення списку регіонів."
+      ],
+      "You do not have permission to save these settings.": [
+        "У вас немає дозволу на збереження цих налаштувань."
+      ],
+      "air raid": [
+        "повітряна тривога"
+      ],
+      "alert": [
+        "тривога"
+      ],
+      "hours": [
+        "годин"
+      ],
+      "ukraine": [
+        "Україна"
+      ],
+      "Повітряна тривога": [
+        "Повітряна тривога"
+      ],
+      "Повітряна тривога — %s": [
+        "Повітряна тривога — %s"
+      ],
+      "Україна": [
+        "Україна"
+      ],
+      "тривога": [
+        "тривога"
+      ],
+      "— Select a region —": [
+        "— Виберіть регіон —"
+      ],
+      "— Use plugin default —": [
+        "— Використовувати типове значення плагіна —"
+      ]
+    }
+  }
+}

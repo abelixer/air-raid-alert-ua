@@ -1,0 +1,455 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Air Raid Alert UA 1.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/abelixer/air-raid-alert-ua/issues\n"
+"POT-Creation-Date: 2026-10-20 00:00+0000\n"
+"PO-Revision-Date: 2026-10-20 00:00+0000\n"
+"Last-Translator: Air Raid Alert UA\n"
+"Language-Team: en_US\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: air-raid-alert-ua\n"
+
+msgid "Accent"
+msgstr "Accent"
+
+msgid ""
+"Add the “Air Raid Alert” block from the Widgets category. Its inspector "
+"exposes the same options."
+msgstr ""
+"Add the “Air Raid Alert” block from the Widgets category. Its inspector "
+"exposes the same options."
+
+msgid ""
+"Added inline after the plugin stylesheet. Use .ara-widget to scope rules. "
+"Scripts, @import, and closing style tags are removed."
+msgstr ""
+"Added inline after the plugin stylesheet. Use .ara-widget to scope rules. "
+"Scripts, @import, and closing style tags are removed."
+
+msgid "Air Raid Alert"
+msgstr "Air Raid Alert"
+
+msgid "Air Raid Alert UA"
+msgstr "Air Raid Alert UA"
+
+msgid "Air Raid Alert UA — Network defaults"
+msgstr "Air Raid Alert UA — Network defaults"
+
+msgid "Alert"
+msgstr "Alert"
+
+msgid "Appearance"
+msgstr "Appearance"
+
+msgid ""
+"Appearance → Widgets → Air Raid Alert. Leave a field on “Use plugin setting”"
+" to inherit the value from this page."
+msgstr ""
+"Appearance → Widgets → Air Raid Alert. Leave a field on “Use plugin setting”"
+" to inherit the value from this page."
+
+msgid "Attribution"
+msgstr "Attribution"
+
+msgid "Auto (system)"
+msgstr "Auto (system)"
+
+msgid "Background"
+msgstr "Background"
+
+msgid "CSP note"
+msgstr "CSP note"
+
+msgid "Cache lifetime"
+msgstr "Cache lifetime"
+
+msgid "Card"
+msgstr "Card"
+
+msgid ""
+"Choose an oblast, raion, or hromada. The whole-Ukraine type does not use a "
+"region."
+msgstr ""
+"Choose an oblast, raion, or hromada. The whole-Ukraine type does not use a "
+"region."
+
+msgid "Classic widget"
+msgstr "Classic widget"
+
+msgid "Colors"
+msgstr "Colors"
+
+msgid ""
+"Could not reach the region source and no cached region list is available."
+msgstr ""
+"Could not reach the region source and no cached region list is available."
+
+msgid "Could not reach the region source. Kept %d cached entries."
+msgstr "Could not reach the region source. Kept %d cached entries."
+
+msgid ""
+"Could not reach the region source. Using the bundled snapshot of %d entries."
+msgstr ""
+"Could not reach the region source. Using the bundled snapshot of %d entries."
+
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+msgid "Dark"
+msgstr "Dark"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Default embed"
+msgstr "Default embed"
+
+msgid "Delete settings and cached regions when the plugin is uninstalled."
+msgstr "Delete settings and cached regions when the plugin is uninstalled."
+
+msgid "Embed the live air-raid alert widget from alerts.na-agency.com."
+msgstr "Embed the live air-raid alert widget from alerts.na-agency.com."
+
+msgid "Embed the live air-raid alert widget."
+msgstr "Embed the live air-raid alert widget."
+
+msgid ""
+"Embedding the iframe or image requests content from alerts.na-agency.com, "
+"which receives the visitor IP address, user agent, and referring origin as "
+"part of that request. The source site states that it does not use cookies or"
+" analytics."
+msgstr ""
+"Embedding the iframe or image requests content from alerts.na-agency.com, "
+"which receives the visitor IP address, user agent, and referring origin as "
+"part of that request. The source site states that it does not use cookies or"
+" analytics."
+
+msgid "Enable the widget, shortcode, block, and classic widget."
+msgstr "Enable the widget, shortcode, block, and classic widget."
+
+msgid "Enter six-digit hex values without the # sign."
+msgstr "Enter six-digit hex values without the # sign."
+
+msgid "Fallback and attribution"
+msgstr "Fallback and attribution"
+
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+msgid "How to embed"
+msgstr "How to embed"
+
+msgid "Image fallback"
+msgstr "Image fallback"
+
+msgid "Inherit network settings for this site."
+msgstr "Inherit network settings for this site."
+
+msgid "Large / 100%"
+msgstr "Large / 100%"
+
+msgid "Large / 100% width"
+msgstr "Large / 100% width"
+
+msgid "Last refresh: %1$s — %2$d regions cached."
+msgstr "Last refresh: %1$s — %2$d regions cached."
+
+msgid "Light"
+msgstr "Light"
+
+msgid "Line"
+msgstr "Line"
+
+msgid "Map"
+msgstr "Map"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Network defaults"
+msgstr "Network defaults"
+
+msgid "Network defaults saved."
+msgstr "Network defaults saved."
+
+msgid ""
+"No remote refresh has been stored yet. The bundled snapshot is used if the "
+"source is unreachable."
+msgstr ""
+"No remote refresh has been stored yet. The bundled snapshot is used if the "
+"source is unreachable."
+
+msgid "No results found."
+msgstr "No results found."
+
+msgid ""
+"On multisite, each site controls its own settings. The network page controls"
+" shared network defaults; region caches are refreshed per site."
+msgstr ""
+"On multisite, each site controls its own settings. The network page controls"
+" shared network defaults; region caches are refreshed per site."
+
+msgid "Open standalone demo"
+msgstr "Open standalone demo"
+
+msgid "Please enter 1 or more characters."
+msgstr "Please enter 1 or more characters."
+
+msgid "Preview current widget"
+msgstr "Preview current widget"
+
+msgid "Privacy note"
+msgstr "Privacy note"
+
+msgid "Refresh region list now"
+msgstr "Refresh region list now"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "Region cache"
+msgstr "Region cache"
+
+msgid "Region list refreshed: %d entries."
+msgstr "Region list refreshed: %d entries."
+
+msgid "Region source returned HTTP %d."
+msgstr "Region source returned HTTP %d."
+
+msgid "Region:"
+msgstr "Region:"
+
+msgid "Save settings"
+msgstr "Save settings"
+
+msgid "Searching…"
+msgstr "Searching…"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Settings saved."
+msgstr "Settings saved."
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Show source attribution"
+msgstr "Show source attribution"
+
+msgid "Show the link to alerts.na-agency.com below the widget."
+msgstr "Show the link to alerts.na-agency.com below the widget."
+
+msgid "Size"
+msgstr "Size"
+
+msgid "Size:"
+msgstr "Size:"
+
+msgid "Small"
+msgstr "Small"
+
+msgid "Source status"
+msgstr "Source status"
+
+msgid "Stats"
+msgstr "Stats"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "The Air Raid Alert widget is disabled in the plugin settings."
+msgstr "The Air Raid Alert widget is disabled in the plugin settings."
+
+msgid ""
+"The iframe requires frame-src https://alerts.na-agency.com; the image "
+"fallback requires img-src https://alerts.na-agency.com. If frames are "
+"blocked, enable the image fallback or adjust the Content-Security-Policy."
+msgstr ""
+"The iframe requires frame-src https://alerts.na-agency.com; the image "
+"fallback requires img-src https://alerts.na-agency.com. If frames are "
+"blocked, enable the image fallback or adjust the Content-Security-Policy."
+
+msgid ""
+"The plugin settings are the defaults. Each shortcode, block, or classic "
+"widget can override region, type, size, theme, fallback, and attribution."
+msgstr ""
+"The plugin settings are the defaults. Each shortcode, block, or classic "
+"widget can override region, type, size, theme, fallback, and attribution."
+
+msgid ""
+"The refresh runs once, immediately, using the same parser as the daily job."
+msgstr ""
+"The refresh runs once, immediately, using the same parser as the daily job."
+
+msgid ""
+"The region list is scraped server-side and cached. A daily WP-Cron job "
+"refreshes it in the background."
+msgstr ""
+"The region list is scraped server-side and cached. A daily WP-Cron job "
+"refreshes it in the background."
+
+msgid "The region page could not be parsed."
+msgstr "The region page could not be parsed."
+
+msgid "The site switch works even while inheriting network defaults."
+msgstr "The site switch works even while inheriting network defaults."
+
+msgid "The source site asks embedders to keep this link."
+msgstr "The source site asks embedders to keep this link."
+
+msgid "The widget type also controls the recommended dimensions."
+msgstr "The widget type also controls the recommended dimensions."
+
+msgid "Theme"
+msgstr "Theme"
+
+msgid "Theme template"
+msgstr "Theme template"
+
+msgid "Theme:"
+msgstr "Theme:"
+
+msgid ""
+"These defaults apply to every site in the network that has “Inherit network "
+"settings” enabled. Each site can still use its own widget switch."
+msgstr ""
+"These defaults apply to every site in the network that has “Inherit network "
+"settings” enabled. Each site can still use its own widget switch."
+
+msgid "This site can inherit the network defaults or override them below."
+msgstr "This site can inherit the network defaults or override them below."
+
+msgid "Title:"
+msgstr "Title:"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Type:"
+msgstr "Type:"
+
+msgid ""
+"Uncheck to give this site its own region and appearance settings. The stored"
+" values below become active when inheritance is disabled."
+msgstr ""
+"Uncheck to give this site its own region and appearance settings. The stored"
+" values below become active when inheritance is disabled."
+
+msgid "Uninstall"
+msgstr "Uninstall"
+
+msgid "Use custom colors"
+msgstr "Use custom colors"
+
+msgid "Use image fallback (CSP-safe)"
+msgstr "Use image fallback (CSP-safe)"
+
+msgid "Use plugin setting"
+msgstr "Use plugin setting"
+
+msgid "Use the /widget-image SVG fallback instead of an iframe."
+msgstr "Use the /widget-image SVG fallback instead of an iframe."
+
+msgid ""
+"Useful when the site Content-Security-Policy blocks frames. Shortcode and "
+"block instances can still choose the other mode."
+msgstr ""
+"Useful when the site Content-Security-Policy blocks frames. Shortcode and "
+"block instances can still choose the other mode."
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid ""
+"When disabled, the shortcode, block, and classic widget render nothing on "
+"the front end."
+msgstr ""
+"When disabled, the shortcode, block, and classic widget render nothing on "
+"the front end."
+
+msgid "Whole Ukraine"
+msgstr "Whole Ukraine"
+
+msgid "Whole-Ukraine view does not use a region."
+msgstr "Whole-Ukraine view does not use a region."
+
+msgid "Widget preview is unavailable."
+msgstr "Widget preview is unavailable."
+
+msgid "Widget settings"
+msgstr "Widget settings"
+
+msgid "Widget switch"
+msgstr "Widget switch"
+
+msgid "You do not have permission to access this page."
+msgstr "You do not have permission to access this page."
+
+msgid "You do not have permission to refresh the region list."
+msgstr "You do not have permission to refresh the region list."
+
+msgid "You do not have permission to save these settings."
+msgstr "You do not have permission to save these settings."
+
+msgid "air raid"
+msgstr "air raid"
+
+msgid "alert"
+msgstr "alert"
+
+msgid "hours"
+msgstr "hours"
+
+msgid "ukraine"
+msgstr "ukraine"
+
+msgid "Повітряна тривога"
+msgstr "Air raid alert"
+
+msgid "Повітряна тривога — %s"
+msgstr "Air raid alert — %s"
+
+msgid "Україна"
+msgstr "Ukraine"
+
+msgid "тривога"
+msgstr "air raid"
+
+msgid "— Select a region —"
+msgstr "— Select a region —"
+
+msgid "— Use plugin default —"
+msgstr "— Use plugin default —"
+
+msgctxt "block title"
+msgid "Air Raid Alert"
+msgstr "Air Raid Alert"
+
+msgctxt "block description"
+msgid "Embed the live air-raid alert widget from alerts.na-agency.com."
+msgstr "Embed the live air-raid alert widget from alerts.na-agency.com."
+
+msgctxt "block keyword"
+msgid "alert"
+msgstr "alert"
+
+msgctxt "block keyword"
+msgid "air raid"
+msgstr "air raid"
+
+msgctxt "block keyword"
+msgid "ukraine"
+msgstr "ukraine"
+
+msgctxt "block keyword"
+msgid "тривога"
+msgstr "air raid"

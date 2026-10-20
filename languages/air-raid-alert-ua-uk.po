@@ -1,0 +1,462 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Air Raid Alert UA 1.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/abelixer/air-raid-alert-ua/issues\n"
+"POT-Creation-Date: 2026-10-20 00:00+0000\n"
+"PO-Revision-Date: 2026-10-20 00:00+0000\n"
+"Last-Translator: Air Raid Alert UA\n"
+"Language-Team: uk\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: air-raid-alert-ua\n"
+
+msgid "Accent"
+msgstr "Акцент"
+
+msgid ""
+"Add the “Air Raid Alert” block from the Widgets category. Its inspector "
+"exposes the same options."
+msgstr ""
+"Додайте блок «Air Raid Alert» з категорії «Віджети». Його інспектор містить "
+"ті самі параметри."
+
+msgid ""
+"Added inline after the plugin stylesheet. Use .ara-widget to scope rules. "
+"Scripts, @import, and closing style tags are removed."
+msgstr ""
+"Додається вбудовано після таблиці стилів плагіна. Використовуйте .ara-widget"
+" для обмеження правил. Скрипти, @import і закриваючі теги style видаляються."
+
+msgid "Air Raid Alert"
+msgstr "Повітряна тривога"
+
+msgid "Air Raid Alert UA"
+msgstr "Air Raid Alert UA"
+
+msgid "Air Raid Alert UA — Network defaults"
+msgstr "Air Raid Alert UA — мережеві налаштування"
+
+msgid "Alert"
+msgstr "Тривога"
+
+msgid "Appearance"
+msgstr "Вигляд"
+
+msgid ""
+"Appearance → Widgets → Air Raid Alert. Leave a field on “Use plugin setting”"
+" to inherit the value from this page."
+msgstr ""
+"Вигляд → Віджети → Air Raid Alert. Залиште поле зі значенням "
+"«Використовувати налаштування плагіна», щоб успадкувати значення з цієї "
+"сторінки."
+
+msgid "Attribution"
+msgstr "Джерело"
+
+msgid "Auto (system)"
+msgstr "Автоматично (система)"
+
+msgid "Background"
+msgstr "Фон"
+
+msgid "CSP note"
+msgstr "Примітка CSP"
+
+msgid "Cache lifetime"
+msgstr "Термін зберігання кешу"
+
+msgid "Card"
+msgstr "Картка"
+
+msgid ""
+"Choose an oblast, raion, or hromada. The whole-Ukraine type does not use a "
+"region."
+msgstr ""
+"Виберіть область, район або громаду. Для типу «Вся Україна» регіон не "
+"використовується."
+
+msgid "Classic widget"
+msgstr "Класичний віджет"
+
+msgid "Colors"
+msgstr "Кольори"
+
+msgid ""
+"Could not reach the region source and no cached region list is available."
+msgstr ""
+"Не вдалося зв’язатися з джерелом регіонів, і кешований список недоступний."
+
+msgid "Could not reach the region source. Kept %d cached entries."
+msgstr ""
+"Не вдалося зв’язатися з джерелом регіонів. Збережено %d кешованих записів."
+
+msgid ""
+"Could not reach the region source. Using the bundled snapshot of %d entries."
+msgstr ""
+"Не вдалося зв’язатися з джерелом регіонів. Використовується вбудований "
+"знімок із %d записів."
+
+msgid "Custom CSS"
+msgstr "Власний CSS"
+
+msgid "Dark"
+msgstr "Темна"
+
+msgid "Data"
+msgstr "Дані"
+
+msgid "Default embed"
+msgstr "Типове вбудовування"
+
+msgid "Delete settings and cached regions when the plugin is uninstalled."
+msgstr "Видаляти налаштування та кешовані регіони під час видалення плагіна."
+
+msgid "Embed the live air-raid alert widget from alerts.na-agency.com."
+msgstr "Вбудувати віджет повітряної тривоги з alerts.na-agency.com."
+
+msgid "Embed the live air-raid alert widget."
+msgstr "Вбудувати віджет повітряної тривоги в реальному часі."
+
+msgid ""
+"Embedding the iframe or image requests content from alerts.na-agency.com, "
+"which receives the visitor IP address, user agent, and referring origin as "
+"part of that request. The source site states that it does not use cookies or"
+" analytics."
+msgstr ""
+"Вбудовування iframe або зображення запитує вміст із alerts.na-agency.com, "
+"який отримує IP-адресу відвідувача, user agent і походження запиту. Сайт-"
+"джерело зазначає, що не використовує файли cookie чи аналітику."
+
+msgid "Enable the widget, shortcode, block, and classic widget."
+msgstr "Увімкнути віджет, шорткод, блок і класичний віджет."
+
+msgid "Enter six-digit hex values without the # sign."
+msgstr "Введіть шестизначні значення HEX без знака #."
+
+msgid "Fallback and attribution"
+msgstr "Резервний варіант і джерело"
+
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+msgid "How to embed"
+msgstr "Як вбудувати"
+
+msgid "Image fallback"
+msgstr "Резервне зображення"
+
+msgid "Inherit network settings for this site."
+msgstr "Успадковувати мережеві налаштування для цього сайту."
+
+msgid "Large / 100%"
+msgstr "Великий / 100%"
+
+msgid "Large / 100% width"
+msgstr "Великий / ширина 100%"
+
+msgid "Last refresh: %1$s — %2$d regions cached."
+msgstr "Останнє оновлення: %1$s — у кеші %2$d регіонів."
+
+msgid "Light"
+msgstr "Світла"
+
+msgid "Line"
+msgstr "Рядок"
+
+msgid "Map"
+msgstr "Карта"
+
+msgid "Medium"
+msgstr "Середній"
+
+msgid "Network defaults"
+msgstr "Мережеві налаштування"
+
+msgid "Network defaults saved."
+msgstr "Мережеві налаштування збережено."
+
+msgid ""
+"No remote refresh has been stored yet. The bundled snapshot is used if the "
+"source is unreachable."
+msgstr ""
+"Віддалене оновлення ще не збережено. Якщо джерело недоступне, "
+"використовується вбудований знімок."
+
+msgid "No results found."
+msgstr "Нічого не знайдено."
+
+msgid ""
+"On multisite, each site controls its own settings. The network page controls"
+" shared network defaults; region caches are refreshed per site."
+msgstr ""
+"У багатосайтовому режимі кожен сайт керує власними налаштуваннями. Мережева "
+"сторінка керує спільними мережевими налаштуваннями; кеш регіонів оновлюється"
+" для кожного сайту окремо."
+
+msgid "Open standalone demo"
+msgstr "Відкрити окреме демо"
+
+msgid "Please enter 1 or more characters."
+msgstr "Введіть 1 або більше символів."
+
+msgid "Preview current widget"
+msgstr "Переглянути поточний віджет"
+
+msgid "Privacy note"
+msgstr "Примітка про конфіденційність"
+
+msgid "Refresh region list now"
+msgstr "Оновити список регіонів зараз"
+
+msgid "Region"
+msgstr "Регіон"
+
+msgid "Region cache"
+msgstr "Кеш регіонів"
+
+msgid "Region list refreshed: %d entries."
+msgstr "Список регіонів оновлено: %d записів."
+
+msgid "Region source returned HTTP %d."
+msgstr "Джерело регіонів повернуло HTTP %d."
+
+msgid "Region:"
+msgstr "Регіон:"
+
+msgid "Save settings"
+msgstr "Зберегти налаштування"
+
+msgid "Searching…"
+msgstr "Пошук…"
+
+msgid "Settings"
+msgstr "Налаштування"
+
+msgid "Settings saved."
+msgstr "Налаштування збережено."
+
+msgid "Shortcode"
+msgstr "Шорткод"
+
+msgid "Show source attribution"
+msgstr "Показувати джерело"
+
+msgid "Show the link to alerts.na-agency.com below the widget."
+msgstr "Показувати посилання на alerts.na-agency.com під віджетом."
+
+msgid "Size"
+msgstr "Розмір"
+
+msgid "Size:"
+msgstr "Розмір:"
+
+msgid "Small"
+msgstr "Малий"
+
+msgid "Source status"
+msgstr "Стан джерела"
+
+msgid "Stats"
+msgstr "Статистика"
+
+msgid "Status"
+msgstr "Стан"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "The Air Raid Alert widget is disabled in the plugin settings."
+msgstr "Віджет Air Raid Alert вимкнено в налаштуваннях плагіна."
+
+msgid ""
+"The iframe requires frame-src https://alerts.na-agency.com; the image "
+"fallback requires img-src https://alerts.na-agency.com. If frames are "
+"blocked, enable the image fallback or adjust the Content-Security-Policy."
+msgstr ""
+"Для iframe потрібен frame-src https://alerts.na-agency.com; для резервного "
+"зображення — img-src https://alerts.na-agency.com. Якщо фрейми заблоковано, "
+"увімкніть резервне зображення або змініть Content-Security-Policy."
+
+msgid ""
+"The plugin settings are the defaults. Each shortcode, block, or classic "
+"widget can override region, type, size, theme, fallback, and attribution."
+msgstr ""
+"Налаштування плагіна є типовими. Кожен шорткод, блок або класичний віджет "
+"може перевизначати регіон, тип, розмір, тему, резервний варіант і джерело."
+
+msgid ""
+"The refresh runs once, immediately, using the same parser as the daily job."
+msgstr ""
+"Оновлення виконується один раз негайно з тим самим парсером, що й щоденне "
+"завдання."
+
+msgid ""
+"The region list is scraped server-side and cached. A daily WP-Cron job "
+"refreshes it in the background."
+msgstr ""
+"Список регіонів отримується на сервері та кешується. Щоденне завдання WP-"
+"Cron оновлює його у фоновому режимі."
+
+msgid "The region page could not be parsed."
+msgstr "Не вдалося обробити сторінку регіонів."
+
+msgid "The site switch works even while inheriting network defaults."
+msgstr "Перемикач сайту працює навіть при успадкуванні мережевих налаштувань."
+
+msgid "The source site asks embedders to keep this link."
+msgstr "Сайт-джерело просить зберігати це посилання."
+
+msgid "The widget type also controls the recommended dimensions."
+msgstr "Тип віджета також визначає рекомендовані розміри."
+
+msgid "Theme"
+msgstr "Тема"
+
+msgid "Theme template"
+msgstr "Шаблон теми"
+
+msgid "Theme:"
+msgstr "Тема:"
+
+msgid ""
+"These defaults apply to every site in the network that has “Inherit network "
+"settings” enabled. Each site can still use its own widget switch."
+msgstr ""
+"Ці типові налаштування застосовуються до кожного сайту мережі, де ввімкнено "
+"«Успадковувати мережеві налаштування». Кожен сайт усе одно може "
+"використовувати власний перемикач віджета."
+
+msgid "This site can inherit the network defaults or override them below."
+msgstr ""
+"Цей сайт може успадковувати мережеві налаштування або перевизначити їх "
+"нижче."
+
+msgid "Title:"
+msgstr "Заголовок:"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Type:"
+msgstr "Тип:"
+
+msgid ""
+"Uncheck to give this site its own region and appearance settings. The stored"
+" values below become active when inheritance is disabled."
+msgstr ""
+"Зніміть прапорець, щоб задати для цього сайту власний регіон і налаштування "
+"вигляду. Збережені нижче значення почнуть діяти після вимкнення "
+"успадкування."
+
+msgid "Uninstall"
+msgstr "Видалення"
+
+msgid "Use custom colors"
+msgstr "Використовувати власні кольори"
+
+msgid "Use image fallback (CSP-safe)"
+msgstr "Використовувати резервне зображення (безпечно для CSP)"
+
+msgid "Use plugin setting"
+msgstr "Використовувати налаштування плагіна"
+
+msgid "Use the /widget-image SVG fallback instead of an iframe."
+msgstr "Використовувати резервне SVG-зображення /widget-image замість iframe."
+
+msgid ""
+"Useful when the site Content-Security-Policy blocks frames. Shortcode and "
+"block instances can still choose the other mode."
+msgstr ""
+"Корисно, коли Content-Security-Policy сайту блокує фрейми. Шорткод і блок "
+"можуть вибрати інший режим."
+
+msgid "Warning"
+msgstr "Попередження"
+
+msgid ""
+"When disabled, the shortcode, block, and classic widget render nothing on "
+"the front end."
+msgstr ""
+"Коли вимкнено, шорткод, блок і класичний віджет нічого не виводять на сайті."
+
+msgid "Whole Ukraine"
+msgstr "Вся Україна"
+
+msgid "Whole-Ukraine view does not use a region."
+msgstr "Для типу «Вся Україна» регіон не використовується."
+
+msgid "Widget preview is unavailable."
+msgstr "Попередній перегляд віджета недоступний."
+
+msgid "Widget settings"
+msgstr "Налаштування віджета"
+
+msgid "Widget switch"
+msgstr "Перемикач віджета"
+
+msgid "You do not have permission to access this page."
+msgstr "У вас немає дозволу на доступ до цієї сторінки."
+
+msgid "You do not have permission to refresh the region list."
+msgstr "У вас немає дозволу на оновлення списку регіонів."
+
+msgid "You do not have permission to save these settings."
+msgstr "У вас немає дозволу на збереження цих налаштувань."
+
+msgid "air raid"
+msgstr "повітряна тривога"
+
+msgid "alert"
+msgstr "тривога"
+
+msgid "hours"
+msgstr "годин"
+
+msgid "ukraine"
+msgstr "Україна"
+
+msgid "Повітряна тривога"
+msgstr "Повітряна тривога"
+
+msgid "Повітряна тривога — %s"
+msgstr "Повітряна тривога — %s"
+
+msgid "Україна"
+msgstr "Україна"
+
+msgid "тривога"
+msgstr "тривога"
+
+msgid "— Select a region —"
+msgstr "— Виберіть регіон —"
+
+msgid "— Use plugin default —"
+msgstr "— Використовувати типове значення плагіна —"
+
+msgctxt "block title"
+msgid "Air Raid Alert"
+msgstr "Повітряна тривога"
+
+msgctxt "block description"
+msgid "Embed the live air-raid alert widget from alerts.na-agency.com."
+msgstr "Вбудувати віджет повітряної тривоги з alerts.na-agency.com."
+
+msgctxt "block keyword"
+msgid "alert"
+msgstr "тривога"
+
+msgctxt "block keyword"
+msgid "air raid"
+msgstr "повітряна тривога"
+
+msgctxt "block keyword"
+msgid "ukraine"
+msgstr "Україна"
+
+msgctxt "block keyword"
+msgid "тривога"
+msgstr "тривога"

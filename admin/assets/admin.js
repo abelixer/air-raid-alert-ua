@@ -45,6 +45,45 @@
 		}
 	}
 
+	function initRegionSelects(context) {
+		var $ = window.jQuery;
+		var messages = window.araAdminData || {};
+
+		if (!$ || !$.fn || !$.fn.select2) {
+			return;
+		}
+
+		function message(key, fallback) {
+			return messages[key] || fallback;
+		}
+
+		$(context || document)
+			.find('.ara-region-select')
+			.addBack('.ara-region-select')
+			.each(function () {
+				var $select = $(this);
+
+				if ($select.hasClass('select2-hidden-accessible')) {
+					return;
+				}
+
+				$select.select2({
+					width: '100%',
+					language: {
+						noResults: function () {
+							return message('noResults', 'No results found.');
+						},
+						searching: function () {
+							return message('searching', 'Searching…');
+						},
+						inputTooShort: function () {
+							return message('inputTooShort', 'Please enter 1 or more characters.');
+						}
+					}
+				});
+			});
+	}
+
 	ready(function () {
 		var checkbox = document.getElementById('ara-use-custom-colors');
 		if (checkbox) {
@@ -56,6 +95,14 @@
 		if (inherit) {
 			inherit.addEventListener('change', highlightInheritedFields);
 			highlightInheritedFields();
+		}
+
+		initRegionSelects(document);
+
+		if (window.jQuery) {
+			window.jQuery(document).on('widget-added widget-updated', function (event, widget) {
+				initRegionSelects(widget);
+			});
 		}
 	});
 })();

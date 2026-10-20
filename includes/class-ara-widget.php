@@ -123,7 +123,7 @@ class ARA_Widget extends WP_Widget {
 			<label for="<?php echo esc_attr( $this->get_field_id( 'region' ) ); ?>">
 				<?php esc_html_e( 'Region:', 'air-raid-alert-ua' ); ?>
 			</label>
-			<select class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'region' ) ); ?>"
+			<select class="widefat ara-region-select" id="<?php echo esc_attr( $this->get_field_id( 'region' ) ); ?>"
 				name="<?php echo esc_attr( $this->get_field_name( 'region' ) ); ?>">
 				<?php echo ARA_Regions::get_select_options_html( absint( $instance['region'] ), __( 'Use plugin setting', 'air-raid-alert-ua' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 			</select>

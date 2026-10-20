@@ -54,6 +54,8 @@ class ARA_Blocks {
 			true
 		);
 
+		wp_set_script_translations( 'ara-block', 'air-raid-alert-ua', ARA_DIR . 'languages' );
+
 		register_block_type(
 			ARA_DIR . 'blocks/widget',
 			array(
