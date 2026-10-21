@@ -29,9 +29,6 @@ $preview_url = $is_network
 	<h1><?php echo esc_html( $title ); ?></h1>
 
 	<p>
-		<a class="button" href="<?php echo esc_url( ARA_URL . 'demo/index.html' ); ?>" target="_blank" rel="noopener">
-			<?php esc_html_e( 'Open standalone demo', 'air-raid-alert-ua' ); ?>
-		</a>
 		<a class="button" href="<?php echo esc_url( $preview_url ); ?>" target="_blank" rel="noopener">
 			<?php esc_html_e( 'Preview current widget', 'air-raid-alert-ua' ); ?>
 		</a>
